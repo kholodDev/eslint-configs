@@ -10,8 +10,27 @@
     "plugins": [],
     "rules": {
         "semi": ["error", "never"],
-        "no-magic-numbers": "off",
         "array-element-newline": ["error", "consistent"],
-        "id-length": "off"
+        "quote-props": ["error", "as-needed"],
+        "comma-dangle": ["error", "always-multiline"],
+        "quotes": ["error", "single"],
+        "function-call-argument-newline": ["error", "consistent"],
+        "padded-blocks": ["error", "never"],
+        "no-multiple-empty-lines": ["error", { "max": 1 }],
+        "arrow-parens": ["error", "as-needed"],
+        "space-before-function-paren": ["error", { 
+            "anonymous": "never",
+            "named": "never",
+            "asyncArrow": "always" 
+        }],
+        "no-magic-numbers": "off",
+        "id-length": "off",
+        "sort-keys": "off",
+        "one-var": "off",
+        "func-style": "off",
+        "strict": "off",
+        "capitalized-comments": "off",
+        "multiline-comment-style": "off",
+        "no-implicit-globals":"off"
     }
 }
